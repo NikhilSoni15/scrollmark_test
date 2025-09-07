@@ -106,8 +106,6 @@ dmypy.json
 # Project specific
 outputs/figures/*
 !outputs/figures/.gitkeep
-outputs/reports/*
-!outputs/reports/.gitkeep
 
 # Large data files (keep the CSV since it's part of the assignment)
 # *.csv
