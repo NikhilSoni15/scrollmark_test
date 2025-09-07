@@ -11,12 +11,12 @@ A comprehensive data analysis project for identifying trends and actionable insi
 ├── engagements.csv          # Raw data (Instagram comments)
 ├── notebooks/               # Jupyter notebooks for analysis
 │   └── trend_analysis.ipynb # Main analysis notebook
-├── src/                     # Source code modules
+├── src/                     # Source code modules (skeleton for future development)
 │   ├── __init__.py
-│   ├── data_processor.py    # Data cleaning and preprocessing
-│   ├── text_analyzer.py     # NLP and text processing
-│   ├── trend_detector.py    # Trend identification logic
-│   └── visualizer.py        # Visualization utilities
+│   ├── data_processor.py    # Data cleaning and preprocessing (template)
+│   ├── text_analyzer.py     # NLP and text processing (template)
+│   ├── trend_detector.py    # Trend identification logic (template)
+│   └── visualizer.py        # Visualization utilities (template)
 └── outputs/                 # Generated reports and visualizations
     ├── figures/             # Chart outputs
     └── reports/             # Final reports
@@ -37,7 +37,9 @@ Our trend analysis of 17,513 Instagram comments revealed:
 **📊 Results**: [Executive Summary](outputs/reports/executive_summary.md) | [Full Analysis](notebooks/trend_analysis.ipynb)
 
 ## Data Description
-- **Dataset**: ~18,000 Instagram comments from March 2025
+- **Dataset**: 17,513 Instagram comments from March-April 2025 (originally ~18K before cleaning)
+- **Date Range**: March 1 - April 2, 2025
+- **Posts Analyzed**: 350 unique Instagram posts
 - **Fields**: 
   - `timestamp`: When the comment was posted
   - `media_id`: Unique identifier for the Instagram post
@@ -91,10 +93,11 @@ jupyter notebook notebooks/trend_analysis.ipynb
 
 ## Tools & Technologies Used
 - **AI/ML Tools**: Claude 3.5 Sonnet for code assistance and analysis guidance
-- **Data Analysis**: pandas, numpy, scipy
-- **NLP**: NLTK, spaCy, transformers
+- **Data Analysis**: pandas, numpy
+- **NLP**: NLTK, TextBlob, WordCloud
+- **Machine Learning**: scikit-learn (TF-IDF, LDA topic modeling)
 - **Visualization**: matplotlib, seaborn, plotly
-- **Topic Modeling**: scikit-learn, gensim
+- **Development**: Jupyter notebooks, Python virtual environment
 
 ---
 *This project was completed as part of the Scrollmark coding assessment.*
