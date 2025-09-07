@@ -22,8 +22,19 @@ A comprehensive data analysis project for identifying trends and actionable insi
     └── reports/             # Final reports
 ```
 
-## Objective
-Create a metrics-driven report of trends and topics of interest, and how they shift over time, for consumers of @treehut.
+## Key Findings
+
+✅ **Analysis Complete!** 
+
+Our trend analysis of 17,513 Instagram comments revealed:
+
+- **🎁 Giveaways drive 10x engagement** (5,731 comments on top post)
+- **👃 Scent is #1 engagement driver** (134+ mentions of fragrance terms)
+- **💰 High purchase intent** ("need" mentioned 326 times)
+- **📅 Viral timing discovered** (March 21st: 3,471 comments in one day)
+- **🎯 5 actionable recommendations** for immediate implementation
+
+**📊 Results**: [Executive Summary](outputs/reports/executive_summary.md) | [Full Analysis](notebooks/trend_analysis.ipynb)
 
 ## Data Description
 - **Dataset**: ~18,000 Instagram comments from March 2025
